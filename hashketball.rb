@@ -57,8 +57,8 @@ def game_hash
   }
 },
   away: {
-    team_name: "Charlotte Hornets"
-    colors: ["Turquoise", "Purple"]
+    team_name: "Charlotte Hornets",
+    colors: ["Turquoise", "Purple"],
     players: {
       "Jeff Adrien" => {
       number: 4,
@@ -99,7 +99,7 @@ def game_hash
       steals: 1,
       blocks: 1,
       slam_dunks: 0,
-    }
+    },
       "Kemnba Walker" => {
       number: 33,
       shoe: 15,
