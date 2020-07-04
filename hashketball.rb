@@ -1,4 +1,5 @@
 # Write your code here!
+require 'pry'
 def game_hash
   { home: {
     team_name: "Brooklyn Nets",
@@ -56,6 +57,7 @@ def game_hash
     }
   }
 },
+binding.pry
   away: {
     team_name: "Charlotte Hornets",
     colors: ["Turquoise", "Purple"],
