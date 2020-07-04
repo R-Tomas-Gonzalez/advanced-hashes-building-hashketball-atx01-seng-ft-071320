@@ -1,5 +1,6 @@
-# Write your code here!
 require 'pry'
+# Write your code here!
+
 def game_hash
   { home: {
     team_name: "Brooklyn Nets",
@@ -15,7 +16,7 @@ def game_hash
       blocks: 1,
       slam_dunks: 1
     },
-    binding.pry
+binding.pry
       "Reggie Evans" => {
       number: 30,
       shoe: 14,
@@ -117,4 +118,3 @@ def game_hash
   }
 }
 end
-binding.pry
